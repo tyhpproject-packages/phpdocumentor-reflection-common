@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/phpdocumentor-reflection-common",
+    "description": "Tyhp type definitions for phpdocumentor/reflection-common 2.2.0.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "2.2.0",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/phpdocumentor-reflection-common-impl": "~2.2.0.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/phpdocumentor-reflection-common-impl"
+        }
+    }
+}
